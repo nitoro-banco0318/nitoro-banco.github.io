@@ -1,0 +1,539 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+}
+.container{
+  width: 100%;
+  margin: auto;
+  float: left;
+}
+
+header{
+  height: 60px;
+  background-color: dodgerblue;
+}
+
+.header-left{
+  float: left;
+}
+
+.header-left img{
+  float: left;
+  width: 60px;
+  height: 60px;
+  margin-left: 0.5em;
+}
+.header-left p{
+  float: left;
+  line-height: 83px;
+  font-size: 2em;
+  color: white;
+  letter-spacing: 0.1em;
+  margin-left: 1em;
+}
+
+.header-right{
+  float: right;
+  margin-top: 2.3em;
+}
+
+.header-right a{
+  text-align: center;
+  display: inline-block;
+  float: left;
+  margin: 0 2em 0 0;
+  background-color: rgba(255, 255, 255, 0);
+  font-size: 12px;
+  color: white;
+  padding: 0 1em;
+}
+
+.header-right a:hover{
+background-color: rgba(255, 255, 255, 0.4);
+border-radius: 30em;
+}
+.top-wrapper img{
+  width: 100%;
+  margin-top: -1.5em;
+}
+.top-wrapper{
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+}
+.top1{
+  width: 100%;
+  position: relative;
+}
+
+.area1{
+  float: left;
+  width: 100%;
+  height: 530px;
+  border-bottom: 1px solid gray;
+}
+
+.area1-left{
+  float: left;
+  width: 85%;
+}
+.heading{
+  background-color: paleturquoise;
+  margin: 1.5em 0 0.5em 1.5em;
+  padding: 0.8em;
+}
+.aisatu{
+  width: 50%;
+  background-color: white;
+
+}
+.heading1{
+  padding: 0 0.5em;
+  flex-basis: 100%;
+}
+
+.head1{
+
+  background-color: white;
+
+  width: 50%;
+  font-size: 14px;
+  padding: 1em 3em;
+}
+
+.left-image{
+
+  margin: 1.5em 0 1.5em 2em;
+  float: left;
+  width: 35%;
+}
+.left-image img{
+  width: 100%;
+}
+
+.image2{
+  margin-top: 3.7em;
+}
+
+.area1-right{
+  width: 15%;
+  height: 100%;
+  float: right;
+}
+li{
+  list-style: none;
+}
+.area-list{
+  float: right;
+  border-radius: 3em;
+  width: 100%;
+  height: 100%;
+  margin-right: 0.5em;
+
+}
+.area1-right h1{
+  font-size: 18px;
+  text-align: center;
+  margin-top: 1.5em;
+  margin-bottom: 0.8em;
+  margin-right: 1em;
+}
+
+.area-list ul{
+margin-right: 1em;
+}
+.area-list a{
+  font-weight: 700;
+  font-size: 20px;
+  border-bottom: 2px solid black;
+  width: 100%;
+  display: block;
+  margin-bottom: 0.2em;
+  transition: all 0.5s;
+}
+.area-list a:hover{
+  font-size: 24px;
+  color: tomato;
+}
+.area2{
+  float: left;
+  display: flex;
+
+  border-bottom: 1px solid gray;
+  flex-wrap: wrap;
+  height: 480px;
+  align-items: flex-end;
+}
+
+
+.area2-left{
+flex-basis: 85%;
+height: 90%;
+
+color: white;
+}
+
+.item-00{
+
+
+}
+.item-01{
+  display: flex;
+
+}
+.image-01{
+  width: 40%;
+}
+
+.item-04{
+  display: flex;
+}
+
+.flex-01{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 1em 0 0 0;
+}
+.image-01{
+  transition: all 0.7s;
+}
+.image-01:hover{
+  flex-basis: 80%;
+
+}
+.flex1 a{
+  padding-left: 0.8em;
+  display: block;
+  width: 100%;
+  font-weight: bold;
+  font-size: 15px;
+  color: white;
+  background-color: darkblue;
+  transition: all 0.7s;
+}
+.flex1 a:hover{
+  font-size: 17px;
+  opacity: 0.7;
+  color: orange;
+}
+.flex1{
+  flex-basis: 49%;
+  border: 1px solid gray;
+}
+.text1{
+  flex-basis: 60%;
+  font-size: 12px;
+  margin: 0.5em 0 0 0.5em;
+  color: black;
+  transition: all 0.7s;
+}
+
+.text1 p{
+  background-color: ivory;
+}
+
+.area2-right{
+  height: 90%;
+  flex-basis: 15%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  background-color: darkblue;
+  margin-bottom: 3em;
+}
+.area2-right a{
+  font-weight: 700;
+  font-size: 1.6em;
+  transition: all 0.5s;
+}
+.area2-right a:hover{
+  font-size: 1.8em;
+  color: tomato;
+}
+.margin1{
+  width: 100%;
+}
+
+.flex2{
+  flex-basis: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+.flex3{
+  flex-basis: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.item-10{
+
+  background-color: skyblue;
+  color: white;
+  margin-left: 0.5em;
+  padding-left: 0.4em;
+}
+.item-10 h1{
+  border-bottom: 1px solid gray;
+}
+.item-11{
+
+background-color: white;
+}
+.item-12{
+
+  background-color: white;
+}
+.item-13{
+
+  background-color: white;
+}
+.item-14 h1{
+  font-size: 1.5em;
+  padding-left: 0.2em;
+  border-bottom: 1px solid gray;
+  background-color: skyblue;
+  color: white;
+  margin-left: 0.3em;
+
+}
+.item-15{
+
+  background-color: white;
+}
+.item-16{
+
+  background-color: white;
+  margin-bottom: 0.8em;
+}
+
+
+.area3{
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+  float: left;
+  display: inline-flex;
+  flex-wrap: wrap;
+  border-bottom: 1px solid dimgray;
+}
+.flex-02{
+  flex-basis: 100%;
+}
+.flex-box1{
+  flex-basis: 80%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.flex-right{
+display: flex;
+flex-direction: column;
+justify-content: center;
+flex-basis: 20%;
+}
+.item-50{
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+.item-51{
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  opacity: 0.8;
+  background-color: lightskyblue;
+  border-radius: 50%;
+  transition: all 0.8s;
+  padding: 1em 0;
+  margin: 0 1.3em;
+}
+.item-51:hover{
+  background-color: salmon;
+  opacity: 0.9;
+  font-size: 20px;
+  }
+.item-100{
+font-weight: bold;
+font-size: 20px;
+flex-basis: 23%;
+}
+.item-200{
+  border: 2px inset white;
+  flex-basis: 23%;
+  font-size: 14px;
+  padding: 0.2em;
+}
+
+.item-30{
+  font-weight: bold;
+  font-size: 20px;
+  flex-basis: 23%;
+}
+.item-40{
+  flex-basis: 23%;
+  font-size: 14px;
+  border: 2px inset white;
+  padding: 0.2em;
+}
+.flex-box2{
+
+}
+.item-50{
+
+}
+.area4{
+  float: left;
+  height: 270px;
+  width: 100%;
+}
+.head2{
+  margin: 1em 2em;
+}
+.area4-left{
+display: flex;
+justify-content: space-around;
+align-items: flex-end;
+}
+.step1{
+  font-size: 18px;
+  flex-basis: 18%;
+  font-weight: bold;
+}
+.step1 p{
+  font-size: 14px;
+  margin-top: 1em;
+  font-weight: normal;
+  transition: all 0.7s;
+}
+.step1 p:hover{
+  font-weight: bold;
+  font-size: 16px;
+  flex-basis: 24%;
+  width: 300px;
+}
+.step2{
+  margin-left: 2em;
+}
+.area4-right{
+  color: white;
+  background-color: tomato;
+  border-radius: 5%;
+  flex-basis: 20%;
+}
+.area4-form p{
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+.form1{
+margin-top: 0.3em;
+margin-bottom: 3em;
+}
+.area4-btn{
+display: flex;
+justify-content: space-around;
+color: white;
+}
+.btn1{
+  padding: 0.1em 0.6em;
+  background-color: lightskyblue;
+  width: 100%;
+  font-size: 14px;
+  flex-basis: 50%;
+  margin: 0 0.5em 0.8em 0.5em;
+  border-radius: 20px;
+  display: inline-block;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  transition: all 0.7s;
+}
+.btn1:hover{
+  color: darkblue;
+  background-color:ivory;
+  opacity: 0.8;
+  font-size: 16px;
+}
+.fa-file-pdf{
+  font-size: 20px;
+  margin: 0 0 0 0.5em;
+}
+.btn2 a{
+
+
+}
+footer{
+  float: left;
+  height: 160px;
+  width: 100%;
+  background-color: darkblue;
+  color: white;
+}
+.footer-left{
+  float: left;
+}
+.footer-image{
+  display: flex;
+}
+.footer-image img{
+  border-radius: 55%;
+}
+.footer-image p{
+  margin-left: 20px;
+  font-size: 25px;
+  margin-top: 8px;
+}
+.footer-link{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 1em 1.5em;
+}
+.footer-link a{
+  color: pink;
+  text-align: center;
+  margin: 0.2em 0;
+  transition: all 0.7s;
+}
+.footer-link a:hover{
+  border-radius: 5em;
+  background-color: rgba(255, 255, 255, 0.5);
+
+}
+.footer-right{
+  float: right;
+  display: flex;
+  font-size: 16px;
+  width: 45%;
+  margin-right: 2em;
+
+}
+.padding{
+  padding-top: 3em;
+}
+.link1{
+  font-size: 20px;
+  color: pink;
+  transition: all 0.5s;
+}
+.link1:hover{
+  font-size: 24px;
+  color: orange;
+}
+
+.nunber{
+  font-size: 12px;
+}
+.address{
+flex-basis: 60%;
+}
+.tel{
+margin-left: 30px;
+flex-basis: 40%;
+}
